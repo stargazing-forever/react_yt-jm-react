@@ -7,9 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #21232a;
   color: azure;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.button {
+  padding: 5px 15px;
+  margin: 5px;
 }

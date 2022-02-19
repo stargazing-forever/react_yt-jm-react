@@ -1,7 +1,8 @@
 import {combineReducers} from 'redux';
+import contadorReducer from './contadorReducer';
 
 const reducer = combineReducers({
-    //my reducers
+    contador: contadorReducer,
 });
 
 export default reducer;
