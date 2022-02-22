@@ -19,3 +19,17 @@ code {
   padding: 5px 15px;
   margin: 5px;
 }
+
+/* css for shopping cart */
+.box {
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 1rem #00000025 inset;
+}
+
+.grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
